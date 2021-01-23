@@ -50,7 +50,7 @@ function App() {
       className='d-flex justify-content-center'
       style={{ maxHeight: '100vh' }}
     >
-      <div className='w-100 pt-2' style={{ maxWidth: '400px' }}>
+      <div className='w-100' style={{ maxWidth: '400px' }}>
         {!state.joined ? (
           <JoinBox onLogin={onLogin} />
         ) : (

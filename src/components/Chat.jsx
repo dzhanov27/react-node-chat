@@ -48,7 +48,7 @@ function Chat({ users, messages, username, roomId, onAddMessage }) {
       {visible ? (
         <div
           className='my-2'
-          style={{ overflowY: 'scroll', height: '60vh' }}
+          style={{ overflowY: 'scroll', height: '69vh' }}
           ref={messagesRef}
         >
           <div className='col-11 px-0'>

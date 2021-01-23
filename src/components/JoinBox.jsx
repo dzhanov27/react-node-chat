@@ -26,7 +26,7 @@ function JoinBox({ onLogin }) {
   }
 
   return (
-    <Card>
+    <Card className='mt-3'>
       <Card.Body>
         {/* {error && <Alert variant='danger'>{error}</Alert>} */}
         <Form>
